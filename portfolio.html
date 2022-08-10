@@ -52,8 +52,47 @@
             
             background-color: white;
             text-decoration: none;
-
         }
+        
+        .wrap2 {
+        width: 300px;
+        margin: 10px auto 0px auto;
+
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+       } 
+
+        .list1 > a {
+        width: 100px;
+        height: 100px;
+
+        margin-bottom: 18px;
+        margin-right: 20px;
+
+        background-color: white;
+        border-radius: 8px;
+
+        font-size: 14px;
+        font-weight: bold;
+        color: #7d71aa;
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content:center; 
+        align-items: center;
+
+        text-decoration: none;
+        box-shadow: 3px 3px 5px 0px black;
+       }
+
+       .list1 > a:hover {
+        background-color: #f2f2f2;
+        font-size: 17px;
+       }
+
 
     </style>
 </head>
@@ -65,7 +104,15 @@
                 <img class="img-title" src="title.png">
             </a>
         </div>    
-        
         <div class="profile"></div>
-        <p class="sub"> 포트폴리오 List</p>
+            <p class="sub"> 포트폴리오 List</p>
+    </div>
+
+    <div class="wrap2">
+        <div class="list1">
+            <a target="_blank" href="https://docs.google.com/spreadsheets/d/1iNmxgaFP3hB9M1TrZjFaa_yLK7emjd0_JnxN3pXgp48/edit#gid=0" title="Google spreadsheet로 이동합니다">테스트 케이스</a>
+            <a href="" title="고민 중... ">기타 문서</a>
+        </div>
+    </div>
+    
 </body>
